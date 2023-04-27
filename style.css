@@ -22,6 +22,14 @@ h1 {
     display: grid;
 }
 
+.blocks-intro {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
 .intro {
     margin: 0;
     margin-bottom: 70px;
@@ -35,6 +43,7 @@ h1 {
     padding: 20px;
     border-radius: 6px;
     display: grid;
+    gap: 20px;
 }
 
 .article-friends {

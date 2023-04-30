@@ -184,10 +184,8 @@ h1 {
 .footer {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    right:
 }
-.footer-links {
+.footer-link {
     gap:20px;
     color:black;
     text-decoration-line: hsla(217, 6%, 46%, 0.2);

@@ -181,9 +181,10 @@ h1 {
     background-color: rgba(15, 15, 15, 0.06);
 }
 
-.footer {
+footer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-link {
     gap:20px;
@@ -191,34 +192,42 @@ h1 {
     text-decoration-line: hsla(217, 6%, 46%, 0.2);
 }
 
-.theme-toggle {
-    padding: 4px;
-    border-radius: 15px;
-    position: relative;
+.label-theme {
+    
 }
 
-.theme-toggle input {
-    width: auto;
-	height: 100%;   
-    cursor: pointer;
-    border-radius: 2px;
-	padding: 4px 8px;
-	background: #454857;
-	color: #bdbdbdbd;
-	font-size: 14px;
+.theme-toogle {
+	background:hsl(0 0% 92%);
+	padding: 2px;
+	border-radius: 24px;
+	position: relative;
+    height: 100%;
 }
 
-.theme-toggle input:checked {
-	background-image: linear-gradient(180deg, #95d891, #74bbad);
-	color: #fff;
-	box-shadow: 0 1px 1px #0000002e;
-	text-shadow: 0 1px 0px #79485f7a;
+.theme-toogle input {
+	width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 2px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 22px;
+	color: #373636bd;
+	font-size: small;
+	transition: all 100ms linear;
 }
 
-.theme-toggle input:before {
+.theme-toogle input:checked {
+	background: white;
+	color: #080707c4;
+}
+
+.theme-toogle input:before {
 	content: attr(label);
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 }
-

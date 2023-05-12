@@ -55,6 +55,11 @@ form {
     border-bottom: 2px solid hsl(0 0% 70%);
 }
 
+.search:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.716);
+}
+
 .blocks {
     display: grid;
 }

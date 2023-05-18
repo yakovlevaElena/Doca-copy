@@ -113,7 +113,8 @@ form {
     display: flex;
     gap: 20px;
     margin-bottom: 0;
-    align-items: baseline;
+    line-height: 20px;
+    align-items:end;
 }
 
 .article-a {

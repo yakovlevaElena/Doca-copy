@@ -137,7 +137,7 @@ form {
 }
 
 .card {
-    min-height: 400px;
+    min-height: 500px;
     padding: 0;
 }
 
@@ -157,6 +157,10 @@ form {
 
 .card-green {
     background-color: hsl(162 90% 51%);
+}
+
+.card-green2 {
+    background-color: hsl(122 78% 58%);
 }
 
 .card-purple {

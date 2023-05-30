@@ -1,0 +1,84 @@
+.search:focus {
+    border-bottom: 2px solid rgba(218, 215, 215, 0.716);
+}
+
+.search::placeholder {
+    color:rgba(205, 202, 202, 0.747);
+}
+
+.article-friends {
+    background-color: hsl(0, 3%, 24%);
+}
+
+.article-a {
+    color:rgb(250, 248, 248);
+    text-decoration-color: hsla(220, 69%, 70%, 0.535);
+}
+
+.article-a:hover {
+    text-decoration-color: hsla(220, 33%, 74%, 0.815);
+}
+
+.card-green {
+    background-color: hsla(162, 90%, 51%, 0.124);
+}
+
+.card-green2 {
+    background-color: hsla(122, 78%, 58%, 0.185);
+}
+
+.card-purple {
+    background-color: hsla(276, 100%, 72%, 0.29);
+}
+
+.card-yellow {
+    background-color: hsla(49, 100%, 58%, 0.408);
+}
+
+.card-blue {
+    background-color: hsla(209, 100%, 59%, 0.409);
+}
+
+.card-guide {
+    color:rgb(181, 178, 178);
+}
+
+.card-conteiner {
+    color:rgb(194, 190, 190);
+}
+
+.card h1 {
+    text-decoration-color: hsla(219, 23%, 75%, 0.862) ;
+}
+
+.card-hover:hover {
+    background-color: rgba(252, 249, 249, 0.804);
+}
+
+.button {
+    border: 1px solid rgb(203, 112, 112);
+    background-color: transparent;
+    color: hsl(223, 5%, 74%);
+}
+
+.button:hover {
+    background-color: rgba(142, 86, 86, 0.625);
+}
+
+.footer-link {
+    color:rgb(218, 211, 211);
+    text-decoration-line: hsla(213, 14%, 73%, 0.786);
+}
+
+.theme-toogle {
+	background:hsl(0, 1%, 15%);
+}
+
+.theme-toogle input {
+	color: #9b9696bd;
+}
+
+.theme-toogle input:checked {
+	background: rgb(32, 32, 32);
+	color: #dfd3d3c4;
+}

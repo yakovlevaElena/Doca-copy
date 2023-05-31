@@ -1,5 +1,9 @@
+body {
+    background-color: #0f0e12dd;
+}
+
 .search:focus {
-    border-bottom: 2px solid rgba(218, 215, 215, 0.716);
+    border-bottom: 2px solid rgba(252, 249, 249, 0.981);
 }
 
 .search::placeholder {
@@ -12,7 +16,7 @@
 
 .article-a {
     color:rgb(250, 248, 248);
-    text-decoration-color: hsla(220, 69%, 70%, 0.535);
+    text-decoration-color: hsla(0, 0%, 100%);
 }
 
 .article-a:hover {

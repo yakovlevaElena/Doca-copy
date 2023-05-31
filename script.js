@@ -7,7 +7,6 @@ document.getElementById('hider').onclick = function() {
   }
 
 //делаем тему
-let changeThemeButtons = document.querySelectorAll('.theme-toogle');
-document.getElementById('dark').onclick = function() {
-    
-  }
+const themeToggle = document.querySelectorAll(.'theme');
+
+themeToggle.forEach()
